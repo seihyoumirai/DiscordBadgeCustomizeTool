@@ -1,4 +1,4 @@
-# Discord Profile Badge Customizer
+# Discord Profile Badge Customize Tool
 
 An extension for customizing your Discord profile badges.
 
