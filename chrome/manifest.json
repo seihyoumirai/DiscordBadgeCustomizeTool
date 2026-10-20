@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Discord All Badges",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "author": "SeihyouMirai",
   "description": "Discordの全てのバッジを適用する。",
   "permissions": ["storage", "scripting"],
