@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Discord Badges Customize Tool",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "SeihyouMirai",
   "description": "Discordのバッジをカスタマイズする拡張機能。",
   "permissions": ["storage", "scripting"],
