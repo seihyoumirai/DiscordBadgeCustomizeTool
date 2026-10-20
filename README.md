@@ -1,33 +1,33 @@
-# Discord Profile Badges Customize Tool
+# Discord Profile Badge Customizer
 
-Discordのプロフィールバッジをカスタマイズする拡張機能です。
-
----
-
-## 使用方法
-
-拡張機能のポップアップからバッジの表示/非表示を設定でき、順番を変えることができます。
+An extension for customizing your Discord profile badges.
 
 ---
 
-## 画像
+## How to Use
+
+You can toggle the visibility of your badges and rearrange their order via the extension's pop-up menu.
+
+---
+
+## Images
 
 <img src="/images/1.png" width="300">
 <img src="/images/2.png" width="300">
 
 ---
 
-## 利用にあたって
+## Terms of Use
 
-### ルール
+1. Do not claim this as your own creation.
+2. Do not redistribute.
+3. Modification is not permitted.
+4. Misuse is strictly prohibited.
+   *  Uploading images created using this extension to social media is prohibited.
+   *  Intended for personal enjoyment only.
 
-1. 自作発言をしないこと
-2. 二次配布をしないこと
-3. 改造不可
-4. 悪用厳禁
-   *  この拡張機能を利用した画像をSNSへアップロードすることは禁止する
-   *  あくまでも個人的に楽しむ用
+---
 
-### 問題
+## Troubleshooting
 
-なぜかバッジが反映されない場合は、別のバッジのオンオフを試してみてください。
+If your badges do not appear as expected, try toggling other badges on or off to refresh the display.
