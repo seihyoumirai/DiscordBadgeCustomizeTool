@@ -1,1 +1,21 @@
-var _0x2b5797=_0x16ac;(function(_0x3dcb16,_0x2488f3){var _0x37a26c=_0x16ac,_0x26a0d7=_0x3dcb16();while(!![]){try{var _0x2f3439=parseInt(_0x37a26c(0x10c))/0x1*(parseInt(_0x37a26c(0x10d))/0x2)+parseInt(_0x37a26c(0x105))/0x3*(-parseInt(_0x37a26c(0x10e))/0x4)+-parseInt(_0x37a26c(0x101))/0x5+parseInt(_0x37a26c(0x109))/0x6+parseInt(_0x37a26c(0x108))/0x7+parseInt(_0x37a26c(0xfe))/0x8+-parseInt(_0x37a26c(0xff))/0x9;if(_0x2f3439===_0x2488f3)break;else _0x26a0d7['push'](_0x26a0d7['shift']());}catch(_0x2309e3){_0x26a0d7['push'](_0x26a0d7['shift']());}}}(_0x1e16,0x3d416),chrome[_0x2b5797(0x106)][_0x2b5797(0x104)][_0x2b5797(0x100)]([_0x2b5797(0x107),_0x2b5797(0x10a)],_0x3b98b7=>{var _0x4e7ca8=_0x2b5797;(_0x3b98b7[_0x4e7ca8(0x107)]||_0x3b98b7[_0x4e7ca8(0x10a)])&&window[_0x4e7ca8(0x102)]({'type':_0x4e7ca8(0x103),'enabledHashes':_0x3b98b7['enabledHashes'],'badgeOrder':_0x3b98b7['badgeOrder']},'*');}),chrome[_0x2b5797(0x106)][_0x2b5797(0x10b)]['addListener'](_0x946681=>{var _0x246030=_0x2b5797;chrome[_0x246030(0x106)][_0x246030(0x104)][_0x246030(0x100)]([_0x246030(0x107),_0x246030(0x10a)],_0x1ea4de=>{var _0x57596d=_0x246030;window['postMessage']({'type':_0x57596d(0x103),'enabledHashes':_0x1ea4de[_0x57596d(0x107)]||[],'badgeOrder':_0x1ea4de[_0x57596d(0x10a)]||[]},'*');});}));function _0x16ac(_0x3075a9,_0x3c1b86){_0x3075a9=_0x3075a9-0xfe;var _0x1e16f7=_0x1e16();var _0x16acbe=_0x1e16f7[_0x3075a9];return _0x16acbe;}function _0x1e16(){var _0x8df5f3=['local','477303evsoJj','storage','enabledHashes','1481872UZfyIm','981510YxcmxJ','badgeOrder','onChanged','1UMzbtG','961334JaWYAz','4frBFYe','2014192YDfFFI','4317696cwWRpa','get','1089875sXOvbi','postMessage','FROM_BADGE_EXTENSION_BRIDGE'];_0x1e16=function(){return _0x8df5f3;};return _0x1e16();}
+chrome.storage.local.get(['enabledHashes', 'badgeOrder', 'overrideEnabled'], (data) => {
+    if (data.enabledHashes || data.badgeOrder || typeof data.overrideEnabled === 'boolean') {
+        window.postMessage({
+            type: 'FROM_BADGE_EXTENSION_BRIDGE',
+            enabledHashes: data.enabledHashes,
+            badgeOrder: data.badgeOrder,
+            overrideEnabled: data.overrideEnabled
+        }, '*');
+    }
+});
+
+chrome.storage.onChanged.addListener((changes) => {
+    chrome.storage.local.get(['enabledHashes', 'badgeOrder', 'overrideEnabled'], (data) => {
+        window.postMessage({
+            type: 'FROM_BADGE_EXTENSION_BRIDGE',
+            enabledHashes: data.enabledHashes || [],
+            badgeOrder: data.badgeOrder || [],
+            overrideEnabled: data.overrideEnabled !== false
+        }, '*');
+    });
+});
