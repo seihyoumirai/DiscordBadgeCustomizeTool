@@ -13,7 +13,6 @@ You can toggle the visibility of your badges and rearrange their order via the e
 ## Images
 
 <img src="/images/1.png" width="300">
-<img src="/images/2.png" width="300">
 
 ---
 
