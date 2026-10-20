@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Discord All Badges",
-  "version": "1.0.3",
+  "name": "Discord Badges Customize Tool",
+  "version": "1.0.4",
   "author": "SeihyouMirai",
-  "description": "Discordの全てのバッジを適用する。",
+  "description": "Discordのバッジをカスタマイズする拡張機能。",
   "permissions": ["storage", "scripting"],
   "host_permissions": [
     "https://discord.com/*",
