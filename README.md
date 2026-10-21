@@ -2,6 +2,8 @@
 
 An extension for customizing your Discord profile badges.
 
+You can also enable the staff feature.
+
 ---
 
 ## How to Use
@@ -13,6 +15,8 @@ You can toggle the visibility of your badges and rearrange their order via the e
 ## Images
 
 <img src="/images/1.png" width="300">
+<img src="/images/2.png" width="300">
+<img src="/images/3.png" width="300">
 
 ---
 
