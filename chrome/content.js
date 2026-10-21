@@ -22,99 +22,99 @@
         'Game Variety Universalist'
     ]);
     const badgeDetails = [
-    { hash: '5e74e9b61934fc1f67c65515d1f7e60d', name: 'Discord Staff', href: 'https://discord.com/company' },
-    { hash: '7294f50817c5fe9fd98631d230ac2e5d', name: 'Discord Nitro Starter', href: 'https://discord.com/settings/premium' },
-    { hash: '4f33c4a9c64ce221936bd256c356f91f', name: 'Discord Nitro Bronze', href: 'https://discord.com/settings/premium' },
-    { hash: '4514fab914bdbfb4ad2fa23df76121a6', name: 'Discord Nitro Silver', href: 'https://discord.com/settings/premium' },
-    { hash: '2895086c18d5531d499862e41d1155a6', name: 'Discord Nitro Gold', href: 'https://discord.com/settings/premium' },
-    { hash: '0334688279c8359120922938dcb1d6f8', name: 'Discord Nitro Platinum', href: 'https://discord.com/settings/premium' },
-    { hash: '0d61871f72bb9a33a7ae568c1fb4f20a', name: 'Discord Nitro Diamond', href: 'https://discord.com/settings/premium' },
-    { hash: '11e2d339068b55d3a506cff34d3780f3', name: 'Discord Nitro Emerald', href: 'https://discord.com/settings/premium' },
-    { hash: 'cd5e2cfd9d7f27a8cdcd3e8a8d5dc9f4', name: 'Discord Nitro Ruby', href: 'https://discord.com/settings/premium' },
-    { hash: '5b154df19c53dce2af92c9b61e6be5e2', name: 'Discord Nitro Opal', href: 'https://discord.com/settings/premium' },
-    { hash: '2ba85e8026a8614b640c2837bcdfe21b', name: 'Old Discord Nitro', href: 'https://discord.com/settings/premium' },
-    { hash: '19a1562a9ce21227116624daaf69e450', name: 'Old Discord Nitro Bronze', href: 'https://discord.com/settings/premium' },
-    { hash: '3d533bea11ec4f7bdbf23a4bdc7a373f', name: 'Old Discord Nitro Silver', href: 'https://discord.com/settings/premium' },
-    { hash: '850a7f5909f9d54d6ad986c096937911', name: 'Old Discord Nitro Gold', href: 'https://discord.com/settings/premium' },
-    { hash: '3393b2ca6e25e40d4bb3bd23d60d0cdd', name: 'Old Discord Nitro Platinum', href: 'https://discord.com/settings/premium' },
-    { hash: '7c85d3834db671b01e6d0fd1538663a0', name: 'Old Discord Nitro Diamond', href: 'https://discord.com/settings/premium' },
-    { hash: '2447661dbda1a992a616a583f8492ae3', name: 'Old Discord Nitro Emerald', href: 'https://discord.com/settings/premium' },
-    { hash: 'ddb868782712aa9f4ef98bef4d6e14f6', name: 'Old Discord Nitro Ruby', href: 'https://discord.com/settings/premium' },
-    { hash: 'cff7119d4417261c3f52fde8a94ba8e5', name: 'Old Discord Nitro Fire', href: 'https://discord.com/settings/premium' },
+    { hash: '5e74e9b61934fc1f67c65515d1f7e60d', name: 'Discord Staff', href: 'https://discord.com/company', tab: '0' },
+    { hash: '7294f50817c5fe9fd98631d230ac2e5d', name: 'Discord Nitro Starter', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '4f33c4a9c64ce221936bd256c356f91f', name: 'Discord Nitro Bronze', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '4514fab914bdbfb4ad2fa23df76121a6', name: 'Discord Nitro Silver', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '2895086c18d5531d499862e41d1155a6', name: 'Discord Nitro Gold', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '0334688279c8359120922938dcb1d6f8', name: 'Discord Nitro Platinum', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '0d61871f72bb9a33a7ae568c1fb4f20a', name: 'Discord Nitro Diamond', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '11e2d339068b55d3a506cff34d3780f3', name: 'Discord Nitro Emerald', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: 'cd5e2cfd9d7f27a8cdcd3e8a8d5dc9f4', name: 'Discord Nitro Ruby', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '5b154df19c53dce2af92c9b61e6be5e2', name: 'Discord Nitro Opal', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '2ba85e8026a8614b640c2837bcdfe21b', name: 'Old Discord Nitro', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '19a1562a9ce21227116624daaf69e450', name: 'Old Discord Nitro Bronze', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '3d533bea11ec4f7bdbf23a4bdc7a373f', name: 'Old Discord Nitro Silver', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '850a7f5909f9d54d6ad986c096937911', name: 'Old Discord Nitro Gold', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '3393b2ca6e25e40d4bb3bd23d60d0cdd', name: 'Old Discord Nitro Platinum', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '7c85d3834db671b01e6d0fd1538663a0', name: 'Old Discord Nitro Diamond', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: '2447661dbda1a992a616a583f8492ae3', name: 'Old Discord Nitro Emerald', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: 'ddb868782712aa9f4ef98bef4d6e14f6', name: 'Old Discord Nitro Ruby', href: 'https://discord.com/settings/premium', tab: '1' },
+    { hash: 'cff7119d4417261c3f52fde8a94ba8e5', name: 'Old Discord Nitro Fire', href: 'https://discord.com/settings/premium', tab: '1' },
     { hash: '3f9748e53446a137a052f3454e2de41e', name: 'Partnered Server Owner', href: 'https://discord.com/partners' },
     { hash: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOxAAADsQBlSsOGwAABCZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIgogICAgICAgICAgICB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iCiAgICAgICAgICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyI+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVuaXQ+CiAgICAgICAgIDx0aWZmOkNvbXByZXNzaW9uPjA8L3RpZmY6Q29tcHJlc3Npb24+CiAgICAgICAgIDx0aWZmOlhSZXNvbHV0aW9uPjk2PC90aWZmOlhSZXNvbHV0aW9uPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj45NjwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPGV4aWY6UGl4ZWxYRGltZW5zaW9uPjI1NjwvZXhpZjpQaXhlbFhEaW1lbnNpb24+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+MTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MjU2PC9leGlmOlBpeGVsWURpbWVuc2lvbj4KICAgICAgICAgPGRjOnN1YmplY3Q+CiAgICAgICAgICAgIDxyZGY6U2VxLz4KICAgICAgICAgPC9kYzpzdWJqZWN0PgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxOTowNzoxMiAxMzowNzo5NTwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+UGl4ZWxtYXRvciAzLjguNTwveG1wOkNyZWF0b3JUb29sPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KAcNYlQAAGWBJREFUeAHtncty3EaWhgFUyeEeSzY9Ed7MJVxazmxMrXpp8gHcIjfeuVnczNbkE9B8AlLL2QyL9s4bUvIDsPQEkiOmI3qnUszMqiNGHFFqd4hFYP4DJIpVxUIVLgkgE/gRQRYueTn5ZebJkxckHIcHCZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACZAACeQh4ObxZLqfn38OOkrGjxznDf4c5+2nnfjeRPxP397cOM4Yf1/gz/nw7beu/PJoKAFVLqQc4C+5XEjyb8uGXH0hZeODnDXtsFoBnJy9Wet2u+tB4K4jY77EH86dNdd1ejhfw1+eY+Q4wUuE86vruiOoiJe72/df5gmIfqonUFKZiBNyiRMpC6MgCF57njMcj7uj3e3f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rvUKYFWOnlwEH4ubT/7yl678vr93r/vJ9fVYzuV4/8UX457jhNebm+7kfviQ/xpF4OIi6I4cpytlQcrBfOLichGXCZaHeUK8JgESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIAESIIE0BP4fh+U63V6SY5IAAAAASUVORK5CYII=', name: 'Discord Partner', href: 'https://discord.com/partners' },
     { hash: 'fee1624003e2fee35cb398e125dc479b', name: 'Moderator Programs Alumni', href: 'https://discord.com/safety' },
     { hash: 'data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTcuMjcxOSAzaC05LjU0MzgzYy0uMTQ5MTIgMS45Mzg2LTEuNzg5NDcgMy40Mjk4Mi0zLjcyODA3IDMuNDI5ODJ2Ljg5NDc0YzAgNC4zOTkxNCAyLjA4NzcyIDguNTAwMDQgNS43NDEyMyAxMS40MDc5NGwyLjc1ODc3IDIuMTYyMiAyLjc1ODgtMi4xNjIyYzMuNjUzNS0yLjgzMzQgNS43NDEyLTcuMDA4OCA1Ljc0MTItMTEuNDA3OTR2LS44OTQ3NGMtMS45Mzg2IDAtMy41MDQ0LTEuNDkxMjItMy43MjgxLTMuNDI5ODJ6bS02LjQ4NjggMTIuODk5MWMtMi4yMzY4NS0xLjc4OTUtMy41Nzg5Ni00LjMyNDUtMy41Nzg5Ni03LjA4MzMxdi0uNTIxOTNjMS4xOTI5OCAwIDIuMjM2ODQtLjg5NDc0IDIuMzExNC0yLjA4NzcyaDIuOTgyNDZ2MTEuMTA5NjZ6IiBmaWxsPSIjNTg2NWYyIi8+PC9zdmc+', name: 'Discord Certified Moderator', href: 'https://discord.com/safety' },
     { hash: 'bf01d1073931f921909045f3a39fd264', name: 'HypeSquad Events', href: 'https://support.discord.com/hc/en-us/articles/360035962891-Profile-Badges-101#h_01GM67K5EJ16ZHYZQ5MPRW3JT3' },
-    { hash: '011940fd013da3f7fb926e4a1cd2e618', name: 'HypeSquad Brilliance' },
-    { hash: '8a88d63823d8a71cd5e390baa45efa02', name: 'HypeSquad Bravery' },
-    { hash: '3aa41de486fa12454c3761e8e223442e', name: 'HypeSquad Balance' },
+    { hash: '011940fd013da3f7fb926e4a1cd2e618', name: 'HypeSquad Brilliance', tab: '6' },
+    { hash: '8a88d63823d8a71cd5e390baa45efa02', name: 'HypeSquad Bravery', tab: '5' },
+    { hash: '3aa41de486fa12454c3761e8e223442e', name: 'HypeSquad Balance', tab: '7' },
     { hash: 'data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgd2lkdGg9IjEyMHB4IiBoZWlnaHQ9IjEyMHB4IiBzdHlsZT0ic2hhcGUtcmVuZGVyaW5nOmdlb21ldHJpY1ByZWNpc2lvbjsgdGV4dC1yZW5kZXJpbmc6Z2VvbWV0cmljUHJlY2lzaW9uOyBpbWFnZS1yZW5kZXJpbmc6b3B0aW1pemVRdWFsaXR5OyBmaWxsLXJ1bGU6ZXZlbm9kZDsgY2xpcC1ydWxlOmV2ZW5vZGQiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KPGc+PHBhdGggc3R5bGU9Im9wYWNpdHk6MC45NDQiIGZpbGw9IiNmZWQ1NmIiIGQ9Ik0gNTguNSwtMC41IEMgNTkuMTY2NywtMC41IDU5LjgzMzMsLTAuNSA2MC41LC0wLjVDIDc5LjgzMzMsMTkuNSA5OS41LDM5LjE2NjcgMTE5LjUsNTguNUMgMTE5LjUsNTkuNSAxMTkuNSw2MC41IDExOS41LDYxLjVDIDk5LjIxNzIsODAuMTE1NCA3OS41NTA1LDk5LjQ0ODcgNjAuNSwxMTkuNUMgNTkuODMzMywxMTkuNSA1OS4xNjY3LDExOS41IDU4LjUsMTE5LjVDIDM5LjE2NjcsOTkuNSAxOS41LDc5LjgzMzMgLTAuNSw2MC41QyAtMC41LDU5LjgzMzMgLTAuNSw1OS4xNjY3IC0wLjUsNTguNUMgMTkuNSwzOS4xNjY3IDM5LjE2NjcsMTkuNSA1OC41LC0wLjUgWiBNIDI2LjUsNDYuNSBDIDI2Ljg5NjYsNDUuNDc1IDI3LjU2MzIsNDUuMzA4MyAyOC41LDQ2QyAzNi44MzMzLDUxLjUgNDUuMTY2Nyw1NyA1My41LDYyLjVDIDU1LjUsNjUuODMzMyA1Ny41LDY5LjE2NjcgNTkuNSw3Mi41QyA2MS45NDQyLDY5LjEyMjkgNjQuMjc3NSw2NS42MjI5IDY2LjUsNjJDIDc0LjkxNDksNTYuMzc1NCA4My40MTQ5LDUwLjg3NTQgOTIsNDUuNUMgODguODQ4Myw1Mi44MTA2IDg1LjM0ODMsNjAuMTQzOSA4MS41LDY3LjVDIDgxLjcwOTMsNjguMDg2IDgyLjA0MjYsNjguNTg2IDgyLjUsNjlDIDg1LjA5NjgsNjkuMjgxIDg3LjQzMDEsNjkuNDQ3NyA4OS41LDY5LjVDIDgwLjMwNyw3Ni41MjY1IDcwLjk3MzcsODMuMzU5OSA2MS41LDkwQyA2MC41LDkwLjY2NjcgNTkuNSw5MC42NjY3IDU4LjUsOTBDIDQ5LjE2NjcsODMuMzMzMyAzOS44MzMzLDc2LjY2NjcgMzAuNSw3MEMgMzMuNDUxMiw2OS45MDQgMzYuMTE3OCw2OS4wNzA3IDM4LjUsNjcuNUMgMzQuNzI1OCw2MC4yNzQ1IDMwLjcyNTgsNTMuMjc0NSAyNi41LDQ2LjUgWiIvPjwvZz4KPC9zdmc+Cg==', name: 'Golden HypeSquad Balance' },
-    { hash: '2717692c7dca7289b35297368a940dd0', name: 'Bug Hunter', href: 'https://support.discord.com/hc/en-us/articles/360046057772-Discord-Bugs' },
-    { hash: '848f79194d4be5ff5f81505cbd0ce1e6', name: 'Golden Bug Hunter', href: 'https://support.discord.com/hc/en-us/articles/360046057772-Discord-Bugs' },
+    { hash: '2717692c7dca7289b35297368a940dd0', name: 'Bug Hunter', href: 'https://support.discord.com/hc/en-us/articles/360046057772-Discord-Bugs', tab: '8' },
+    { hash: '848f79194d4be5ff5f81505cbd0ce1e6', name: 'Golden Bug Hunter', href: 'https://support.discord.com/hc/en-us/articles/360046057772-Discord-Bugs', tab: '9' },
     { hash: '6bdc42827a38498929a4920da12695d9', name: 'Active Developer', href: 'https://support-dev.discord.com/hc/en-us/articles/10113997751447?ref=badge' },
-    { hash: '6df5892e0f35b051f8b61eace34f4967', name: 'Early Verified Bot Developer' },
-    { hash: '7060786766c9c840eb3019e725d2b358', name: 'Early Supporter', href: 'https://discord.com/settings/premium' },
-    { hash: '51040c70d4f20a921ad6674ff86fc95c', name: 'Server Boosting 1 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: '0e4080d1d333bc7ad29ef6528b6f2fb7', name: 'Server Boosting 2 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: '72bed924410c304dbe3d00a6e593ff59', name: 'Server Boosting 3 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: 'df199d2050d3ed4ebf84d64ae83989f8', name: 'Server Boosting 6 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: '996b3e870e8a22ce519b3a50e6bdd52f', name: 'Server Boosting 9 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: '991c9f39ee33d7537d9f408c3e53141e', name: 'Server Boosting 12 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: 'cb3ae83c15e970e8f3d410bc62cb8b99', name: 'Server Boosting 15 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: '7142225d31238f6387d9f09efaa02759', name: 'Server Boosting 18 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: 'ec92202290b48d0879b7413d2dde3bab', name: 'Server Boosting 24 Month', href: 'https://discord.com/settings/guild-boosting' },
-    { hash: '6de6d34650760ba5551a79732e98ed60', name: 'Legacy Username' },
+    { hash: '6df5892e0f35b051f8b61eace34f4967', name: 'Early Verified Bot Developer', tab: '10' },
+    { hash: '7060786766c9c840eb3019e725d2b358', name: 'Early Supporter', href: 'https://discord.com/settings/premium', tab: '11' },
+    { hash: '51040c70d4f20a921ad6674ff86fc95c', name: 'Server Boosting 1 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: '0e4080d1d333bc7ad29ef6528b6f2fb7', name: 'Server Boosting 2 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: '72bed924410c304dbe3d00a6e593ff59', name: 'Server Boosting 3 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: 'df199d2050d3ed4ebf84d64ae83989f8', name: 'Server Boosting 6 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: '996b3e870e8a22ce519b3a50e6bdd52f', name: 'Server Boosting 9 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: '991c9f39ee33d7537d9f408c3e53141e', name: 'Server Boosting 12 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: 'cb3ae83c15e970e8f3d410bc62cb8b99', name: 'Server Boosting 15 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: '7142225d31238f6387d9f09efaa02759', name: 'Server Boosting 18 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: 'ec92202290b48d0879b7413d2dde3bab', name: 'Server Boosting 24 Month', href: 'https://discord.com/settings/guild-boosting', tab: '12' },
+    { hash: '6de6d34650760ba5551a79732e98ed60', name: 'Legacy Username', tab: '13' },
     { hash: 'https://discord.com/assets/971cfe4aa5c0582000ea.svg', name: 'Clown Badge', href: 'https://discord.com/settings/lootboxes' },
-    { hash: '7d9ae358c8c5e118768335dbe68b4fb8', name: 'Quests', href: 'https://discord.com/discovery/quests' },
-    { hash: 'ca105ad9cfc8580c765101d17bbb2323', name: 'Last Meadow Online' },
-    { hash: '83d8a1eb09a8d64e59233eec5d4d5c2d', name: 'Orbs Apprentice', href: 'https://discord.com/shop?tab=orbs' },
-    { hash: 'ac305d1b9481f312ce4419e7f8296558', name: 'Gifting Patron', href: 'https://discord.com/settings' },
-    { hash: '8b7792c4f65953d3ff564f23429cb79e', name: 'Gifting Champion', href: 'https://discord.com/settings' },
-    { hash: '3119f5504b2cd09576a323908c7c3517', name: 'Gifting Luminary', href: 'https://discord.com/settings' },
-    { hash: '64f2413c9b9803661322aaad25826b62', name: 'Gifting Icon', href: 'https://discord.com/settings' },
-    { hash: '77d65b1f210014a11eb1582ee06ab684', name: 'Gifting Hero', href: 'https://discord.com/settings' },
-    { hash: '7fe346cfc5da1340087d8759a9e7a395', name: 'Gifting Legend', href: 'https://discord.com/settings' },
-    { hash: 'b5716cca77a6e24b20eabe4d008479a9', name: "Account Age Seed" },
-    { hash: 'd7648c523cf6322e650b4f7ea718b8a3', name: "Account Age Sprout" },
-    { hash: '73d2776a9c6d93a7e041e6fd90da86f6', name: "Account Age Sapling" },
-    { hash: 'bce1cb27ae581e866dc86f9f16e4046e', name: "Account Age Bud" },
-    { hash: 'c2ff7d8d6285305f969be81c3c92dd78', name: "Account Age Blossom" },
-    { hash: '813d80b654901205a69da56b5e5ff2e4', name: "Account Age Redwood" },
-    { hash: 'e9cdafeb9234bd7262e733e6072d1739', name: "Account Age Sequoia" },
-    { hash: '2f766b95be1f0bfcc69404ab898cf71a', name: "Account Age Bristlecone" },
-    { hash: '7c078b2e82d6010fe46268ff204927de', name: "Account Age Stromatolite" },
-    { hash: 'c478f85138cb30158637442110ab33b7', name: "Account Age Primordial" },
-    { hash: '30670da18925260946379b7fe10def26', name: "Streaming Newcomer" },
-    { hash: '046ddc05551d3b91d269460956d81188', name: "Streaming Fledgling" },
-    { hash: 'dac8be3f227ad66655e402814c366f64', name: "Streaming Breakout" },
-    { hash: '852c0e2f5d2d73e75b1eabb286417acf', name: "Streaming Standout" },
-    { hash: 'f5e5b1a2820da1981084e4b719be72e7', name: "Streaming Trendsetter" },
-    { hash: '0b06966b175dc72c9b5eaea61003d530', name: "Streaming Headliner" },
-    { hash: '3ba1b4e528fdebfe49cd7021550e9826', name: "Streaming Star" },
-    { hash: '063ec3175b47664507d30feaf83dfa99', name: "Streaming Sensation" },
-    { hash: '6edf703112af70405038c5b091e78e28', name: "Streaming Visionary" },
-    { hash: 'https://cdn.discordapp.com/assets/content/61331d04b7a9542b38bfa59583360c0b9b93c6496a04f99c0ab37fa1d83ec58a.svg', name: "Streaming Phenomenon" },
-    { hash: '3efa50b9d9eff04c04a0bdd6e78b8dc0', name: "Game Time Casual" },
-    { hash: '7f60a090de6cfe230bbc32c482fbaf2c', name: "Game Time Recreational" },
-    { hash: '054c89b927c8c8907ab652fb458fb97f', name: "Game Time Dedicated" },
-    { hash: '452bbe19d924544ab70cfd8f3cc0e446', name: "Game Time Committed" },
-    { hash: '269355d438e62bd1f45e127b34459caf', name: "Game Time Serious" },
-    { hash: 'feb9939317a21090e6dcdf410e3c3000', name: "Game Time Devoted" },
-    { hash: 'db259eb9f31a389ff0aff009b704babb', name: "Game Time Seasoned" },
-    { hash: '208e1bb66e311286cae364bc6f19277a', name: "Game Time Ironclad" },
-    { hash: 'be98f2d9a07ba288bf271b0757fbce6a', name: "Game Time Unshakeable" },
-    { hash: '7c57adf7939dd1132e02cb273ac07b96', name: "Game Time Eternal" },
-    { hash: 'f2e95dea497883ba979fbb7262df4fb1', name: "Game Variety Sampler" },
-    { hash: '5df9e6c933a4255e2edd6030719da8c6', name: "Game Variety Dabbler" },
-    { hash: '1043a575492403efe4ec42efa451050c', name: "Game Variety Enthuiast" },
-    { hash: '5816a47693a62f0529e53ed2fbc7f41c', name: "Game Variety Ranger" },
-    { hash: 'ce9ae4ae128db559173a0a29c49becd2', name: "Game Variety Explorer" },
-    { hash: 'b27e9974811d0c4e420724fc0e54b4b2', name: "Game Variety Adventurer" },
-    { hash: '68af20428336f8c018bab39206644d60', name: "Game Variety Voyager" },
-    { hash: '486481f263f0da8bccb5673687f5d880', name: "Game Variety Maverick" },
-    { hash: '33e5593de1a98a7b12aba93174357031', name: "Game Variety Polymath" },
-    { hash: '2ec2aa257c6fa9adb68c79b7b98b39a2', name: "Game Variety Universalist" },
+    { hash: '7d9ae358c8c5e118768335dbe68b4fb8', name: 'Quests', href: 'https://discord.com/discovery/quests', tab: '14' },
+    { hash: 'ca105ad9cfc8580c765101d17bbb2323', name: 'Last Meadow Online', tab: '15' },
+    { hash: '83d8a1eb09a8d64e59233eec5d4d5c2d', name: 'Orbs Apprentice', href: 'https://discord.com/shop?tab=orbs', tab: '16' },
+    { hash: 'ac305d1b9481f312ce4419e7f8296558', name: 'Gifting Patron', href: 'https://discord.com/settings/inventory', tab: '17' },
+    { hash: '8b7792c4f65953d3ff564f23429cb79e', name: 'Gifting Champion', href: 'https://discord.com/settings/inventory', tab: '17' },
+    { hash: '3119f5504b2cd09576a323908c7c3517', name: 'Gifting Luminary', href: 'https://discord.com/settings/inventory', tab: '17' },
+    { hash: '64f2413c9b9803661322aaad25826b62', name: 'Gifting Icon', href: 'https://discord.com/settings/inventory', tab: '17' },
+    { hash: '77d65b1f210014a11eb1582ee06ab684', name: 'Gifting Hero', href: 'https://discord.com/settings/inventory', tab: '17' },
+    { hash: '7fe346cfc5da1340087d8759a9e7a395', name: 'Gifting Legend', href: 'https://discord.com/settings/inventory', tab: '17' },
+    { hash: 'b5716cca77a6e24b20eabe4d008479a9', name: "Account Age Seed", tab: '18' },
+    { hash: 'd7648c523cf6322e650b4f7ea718b8a3', name: "Account Age Sprout", tab: '18' },
+    { hash: '73d2776a9c6d93a7e041e6fd90da86f6', name: "Account Age Sapling", tab: '18' },
+    { hash: 'bce1cb27ae581e866dc86f9f16e4046e', name: "Account Age Bud", tab: '18' },
+    { hash: 'c2ff7d8d6285305f969be81c3c92dd78', name: "Account Age Blossom", tab: '18' },
+    { hash: '813d80b654901205a69da56b5e5ff2e4', name: "Account Age Redwood", tab: '18' },
+    { hash: 'e9cdafeb9234bd7262e733e6072d1739', name: "Account Age Sequoia", tab: '18' },
+    { hash: '2f766b95be1f0bfcc69404ab898cf71a', name: "Account Age Bristlecone", tab: '18' },
+    { hash: '7c078b2e82d6010fe46268ff204927de', name: "Account Age Stromatolite", tab: '18' },
+    { hash: 'c478f85138cb30158637442110ab33b7', name: "Account Age Primordial", tab: '18' },
+    { hash: '30670da18925260946379b7fe10def26', name: "Streaming Newcomer", tab: '19' },
+    { hash: '046ddc05551d3b91d269460956d81188', name: "Streaming Fledgling", tab: '19' },
+    { hash: 'dac8be3f227ad66655e402814c366f64', name: "Streaming Breakout", tab: '19' },
+    { hash: '852c0e2f5d2d73e75b1eabb286417acf', name: "Streaming Standout", tab: '19' },
+    { hash: 'f5e5b1a2820da1981084e4b719be72e7', name: "Streaming Trendsetter", tab: '19' },
+    { hash: '0b06966b175dc72c9b5eaea61003d530', name: "Streaming Headliner", tab: '19' },
+    { hash: '3ba1b4e528fdebfe49cd7021550e9826', name: "Streaming Star", tab: '19' },
+    { hash: '063ec3175b47664507d30feaf83dfa99', name: "Streaming Sensation", tab: '19' },
+    { hash: '6edf703112af70405038c5b091e78e28', name: "Streaming Visionary", tab: '19' },
+    { hash: 'https://cdn.discordapp.com/assets/content/61331d04b7a9542b38bfa59583360c0b9b93c6496a04f99c0ab37fa1d83ec58a.svg', name: "Streaming Phenomenon", tab: '19' },
+    { hash: '3efa50b9d9eff04c04a0bdd6e78b8dc0', name: "Game Time Casual", tab: '20' },
+    { hash: '7f60a090de6cfe230bbc32c482fbaf2c', name: "Game Time Recreational", tab: '20' },
+    { hash: '054c89b927c8c8907ab652fb458fb97f', name: "Game Time Dedicated", tab: '20' },
+    { hash: '452bbe19d924544ab70cfd8f3cc0e446', name: "Game Time Committed", tab: '20' },
+    { hash: '269355d438e62bd1f45e127b34459caf', name: "Game Time Serious", tab: '20' },
+    { hash: 'feb9939317a21090e6dcdf410e3c3000', name: "Game Time Devoted", tab: '20' },
+    { hash: 'db259eb9f31a389ff0aff009b704babb', name: "Game Time Seasoned", tab: '20' },
+    { hash: '208e1bb66e311286cae364bc6f19277a', name: "Game Time Ironclad", tab: '20' },
+    { hash: 'be98f2d9a07ba288bf271b0757fbce6a', name: "Game Time Unshakeable", tab: '20' },
+    { hash: '7c57adf7939dd1132e02cb273ac07b96', name: "Game Time Eternal", tab: '20' },
+    { hash: 'f2e95dea497883ba979fbb7262df4fb1', name: "Game Variety Sampler", tab: '21' },
+    { hash: '5df9e6c933a4255e2edd6030719da8c6', name: "Game Variety Dabbler", tab: '21' },
+    { hash: '1043a575492403efe4ec42efa451050c', name: "Game Variety Enthuiast", tab: '21' },
+    { hash: '5816a47693a62f0529e53ed2fbc7f41c', name: "Game Variety Ranger", tab: '21' },
+    { hash: 'ce9ae4ae128db559173a0a29c49becd2', name: "Game Variety Explorer", tab: '21' },
+    { hash: 'b27e9974811d0c4e420724fc0e54b4b2', name: "Game Variety Adventurer", tab: '21' },
+    { hash: '68af20428336f8c018bab39206644d60', name: "Game Variety Voyager", tab: '21' },
+    { hash: '486481f263f0da8bccb5673687f5d880', name: "Game Variety Maverick", tab: '21' },
+    { hash: '33e5593de1a98a7b12aba93174357031', name: "Game Variety Polymath", tab: '21' },
+    { hash: '2ec2aa257c6fa9adb68c79b7b98b39a2', name: "Game Variety Universalist", tab: '21' },
     { hash: '6f9e37f9029ff57aef81db857890005e', name: 'Supports Commands', href: 'https://discord.com/blog/welcome-to-the-new-era-of-discord-apps?ref=badge' },
     { hash: 'f2459b691ac7453ed6039bbcfaccbfcd', name: 'Uses Automod' },
     { hash: 'd2010c413a8da2208b7e4f35bd8cd4ac', name: 'Has Bot Premium' },
@@ -193,17 +193,40 @@
     let activeBadgeOrder = [];
     let overrideEnabled = true;
     const originalBadgeContents = new WeakMap();
+    const originalBadgeGridContents = new WeakMap();
+    const originalOwnedBadgeContents = new WeakMap();
 
     function injectBadges() {
-        const badgeContainers = document.querySelectorAll('[aria-label="User Badges"]:not([data-all-badges]), [aria-label="ユーザーバッジ"]:not([data-all-badges])');
+        const badgeContainers = document.querySelectorAll('[aria-label="User Badges"]:not(.badgeGrid_f18413):not([data-all-badges]), [aria-label="ユーザーバッジ"]:not(.badgeGrid_f18413):not([data-all-badges])');
+        const badgeGrids = document.querySelectorAll('.badgeGrid_f18413[role="group"][aria-label="ユーザーバッジ"]:not([data-extension-badge-grid]), .badgeGrid_f18413[role="group"][aria-label="User Badges"]:not([data-extension-badge-grid])');
+        const ownedBadgeGrids = document.querySelectorAll('.badgeGrid__6db38[role="tablist"][data-list-id="badge-directory-owned"]:not([data-extension-owned-badges])');
         if (!overrideEnabled) {
             document.querySelectorAll('[data-all-badges]').forEach(container => {
                 const original = originalBadgeContents.get(container);
                 if (original) container.replaceChildren(...original);
                 container.removeAttribute('data-all-badges');
             });
+            document.querySelectorAll('[data-extension-badge-grid]').forEach(grid => {
+                const original = originalBadgeGridContents.get(grid);
+                if (original) grid.replaceChildren(...original);
+                grid.removeAttribute('data-extension-badge-grid');
+            });
+            document.querySelectorAll('[data-extension-owned-badges]').forEach(grid => {
+                const original = originalOwnedBadgeContents.get(grid);
+                if (original) grid.replaceChildren(...original);
+                grid.removeAttribute('data-extension-owned-badges');
+            });
             return;
         }
+        const orderedBadges = [...badgeDetails].sort((a, b) => {
+            let indexA = activeBadgeOrder.indexOf(a.hash);
+            let indexB = activeBadgeOrder.indexOf(b.hash);
+            if (indexA === -1) indexA = badgeOrder.indexOf(a.hash);
+            if (indexB === -1) indexB = badgeOrder.indexOf(b.hash);
+            if (indexA === -1) indexA = 999;
+            if (indexB === -1) indexB = 999;
+            return indexA - indexB;
+        });
         badgeContainers.forEach(container => {
             if (!originalBadgeContents.has(container)) {
                 originalBadgeContents.set(container, [...container.childNodes]);
@@ -211,16 +234,6 @@
             container.setAttribute('data-all-badges', 'true');
             container.innerHTML = '';
             
-            const orderedBadges = [...badgeDetails].sort((a, b) => {
-                let indexA = activeBadgeOrder.indexOf(a.hash);
-                let indexB = activeBadgeOrder.indexOf(b.hash);
-                if (indexA === -1) indexA = badgeOrder.indexOf(a.hash);
-                if (indexB === -1) indexB = badgeOrder.indexOf(b.hash);
-                if (indexA === -1) indexA = 999;
-                if (indexB === -1) indexB = 999;
-                return indexA - indexB;
-            });
-
             orderedBadges.forEach(badge => {
                 if (!enabledHashes.includes(badge.hash)) return;
                 
@@ -261,7 +274,102 @@
                 anchor.appendChild(img);
                 container.appendChild(anchor);
             });
+
         });
+
+        badgeGrids.forEach(grid => {
+            if (!originalBadgeGridContents.has(grid)) {
+                originalBadgeGridContents.set(grid, [...grid.childNodes]);
+            }
+            grid.setAttribute('data-extension-badge-grid', 'true');
+            const backdrop = grid.querySelector(':scope > .gridDropBackdrop_f18413') || createBadgeGridBackdrop();
+            grid.replaceChildren(backdrop);
+            orderedBadges.forEach(badge => {
+                if (enabledHashes.includes(badge.hash)) grid.appendChild(createBadgeCustomizerTile(badge));
+            });
+        });
+
+        ownedBadgeGrids.forEach(grid => {
+            if (!originalOwnedBadgeContents.has(grid)) {
+                originalOwnedBadgeContents.set(grid, [...grid.childNodes]);
+            }
+            grid.setAttribute('data-extension-owned-badges', 'true');
+            grid.replaceChildren();
+            let num = 1;
+            orderedBadges.forEach(badge => {
+                if (!enabledHashes.includes(badge.hash)) return;
+                grid.appendChild(createOwnedBadgeTab(badge, num++));
+            });
+        });
+    }
+
+    function createOwnedBadgeTab(badge, num) {
+        const tab = document.createElement('div');
+        const tabId = badge.tab ?? 99;
+        const isSelected = num === 1;
+        tab.className = isSelected ? 'badgeSlot__6db38 badgeSlotSelected__6db38' : 'badgeSlot__6db38';
+        tab.setAttribute('role', 'tab');
+        tab.setAttribute('data-list-item-id', `badge-directory-owned___item-${num}`);
+        tab.tabIndex = isSelected ? 0 : -1;
+        tab.id = `badge-tab-${tabId}`;
+        tab.setAttribute('aria-label', 'Badge');
+        tab.setAttribute('aria-selected', String(isSelected));
+
+        const img = document.createElement('img');
+        img.alt = '';
+        img.setAttribute('aria-hidden', 'true');
+        img.draggable = false;
+        img.className = 'badgeSlotIcon__6db38';
+        img.src = getBadgeImageUrl(badge.hash);
+        tab.appendChild(img);
+        return tab;
+    }
+
+    function createBadgeGridBackdrop() {
+        const backdrop = document.createElement('div');
+        backdrop.className = 'gridDropBackdrop_f18413';
+        backdrop.setAttribute('aria-hidden', 'true');
+        return backdrop;
+    }
+
+    function createBadgeCustomizerTile(badge) {
+        const target = document.createElement('div');
+        target.className = 'dragTarget_f18413';
+        target.setAttribute('aria-label', 'Badge');
+        target.draggable = true;
+
+        const tileContainer = document.createElement('div');
+        tileContainer.className = 'badgeTileContainer_f18413';
+        const tile = document.createElement('div');
+        tile.className = 'badgeTile_f18413';
+        const img = document.createElement('img');
+        img.alt = '';
+        img.setAttribute('aria-hidden', 'true');
+        img.draggable = false;
+        img.className = 'badgeTileIcon_f18413';
+        img.src = getBadgeImageUrl(badge.hash);
+        tile.appendChild(img);
+        tileContainer.appendChild(tile);
+
+        const overflowButton = document.createElement('button');
+        overflowButton.type = 'button';
+        overflowButton.className = 'overflowButton_f18413';
+        overflowButton.setAttribute('aria-haspopup', 'menu');
+        overflowButton.setAttribute('aria-expanded', 'false');
+        overflowButton.setAttribute('aria-label', 'Badge');
+        overflowButton.innerHTML = '<svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z" clip-rule="evenodd" class=""></path></svg>';
+        tileContainer.appendChild(overflowButton);
+
+        const dragHandle = document.createElement('div');
+        dragHandle.className = 'dragHandle_f18413';
+        dragHandle.setAttribute('aria-label', 'Badge');
+        dragHandle.setAttribute('aria-keyshortcuts', 'Control+D, Meta+D');
+        dragHandle.setAttribute('role', 'button');
+        dragHandle.tabIndex = 0;
+        dragHandle.innerHTML = '<svg aria-hidden="true" role="img" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M6 4a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm0 8a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm2 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm6-18a2 2 0 1 0 4 0 2 2 0 0 0-4 0Zm2 10a2 2 0 1 1 0-4 2 2 0 0 1 0 4Zm-2 6a2 2 0 1 0 4 0 2 2 0 0 0-4 0Z" clip-rule="evenodd" class=""></path></svg>';
+
+        target.append(tileContainer, dragHandle);
+        return target;
     }
 
     function getBadgeImageUrl(hashOrUrl) {
@@ -278,6 +386,8 @@
             if (typeof event.data.overrideEnabled === 'boolean') overrideEnabled = event.data.overrideEnabled;
             if (overrideEnabled) {
                 document.querySelectorAll('[data-all-badges]').forEach(el => el.removeAttribute('data-all-badges'));
+                document.querySelectorAll('[data-extension-badge-grid]').forEach(el => el.removeAttribute('data-extension-badge-grid'));
+                document.querySelectorAll('[data-extension-owned-badges]').forEach(el => el.removeAttribute('data-extension-owned-badges'));
             }
             injectBadges();
         }
