@@ -1,22 +1,22 @@
 const badgeBaseUrl = 'https://cdn.discordapp.com/badge-icons/';
 const uiTranslations = {
-    ja: { appTitle:'Discord All Badges', settings:'設定', language:'言語', override:'バッジを上書き', standard:'通常バッジ', deleted:'削除済みバッジ', custom:'カスタムバッジ', order:'有効なバッジの表示順（ドラッグして変更）', credit:'Made by 清冰みらい' },
-    en: { appTitle:'Discord All Badges', settings:'Settings', language:'Language', override:'Override badges', standard:'Standard badges', deleted:'Deleted badges', custom:'Custom badges', order:'Enabled badge order (drag to change)', credit:'Made by 清冰みらい' },
-    ko: { settings:'설정', language:'언어', override:'배지 덮어쓰기', standard:'일반 배지', deleted:'삭제된 배지', custom:'사용자 지정 배지', order:'활성 배지 순서 (드래그하여 변경)', credit:'Made by 清冰みらい' },
-    'zh-CN': { settings:'设置', language:'语言', override:'覆盖徽章', standard:'普通徽章', deleted:'已删除徽章', custom:'自定义徽章', order:'已启用徽章顺序（拖动以更改）', credit:'Made by 清冰みらい' },
-    'zh-TW': { settings:'設定', language:'語言', override:'覆蓋徽章', standard:'一般徽章', deleted:'已刪除徽章', custom:'自訂徽章', order:'已啟用徽章順序（拖曳以變更）', credit:'Made by 清冰みらい' },
-    fr: { settings:'Paramètres', language:'Langue', override:'Remplacer les badges', standard:'Badges standard', deleted:'Badges supprimés', custom:'Badges personnalisés', order:'Ordre des badges activés (glisser pour modifier)', credit:'Made by 清冰みらい' },
-    de: { settings:'Einstellungen', language:'Sprache', override:'Badges überschreiben', standard:'Standard-Badges', deleted:'Entfernte Badges', custom:'Benutzerdefinierte Badges', order:'Reihenfolge aktivierter Badges (zum Ändern ziehen)', credit:'Made by 清冰みらい' },
-    es: { settings:'Configuración', language:'Idioma', override:'Sobrescribir insignias', standard:'Insignias estándar', deleted:'Insignias eliminadas', custom:'Insignias personalizadas', order:'Orden de insignias activas (arrastra para cambiar)', credit:'Made by 清冰みらい' },
-    pt: { settings:'Configurações', language:'Idioma', override:'Substituir emblemas', standard:'Emblemas padrão', deleted:'Emblemas removidos', custom:'Emblemas personalizados', order:'Ordem dos emblemas ativos (arraste para alterar)', credit:'Made by 清冰みらい' },
-    ru: { settings:'Настройки', language:'Язык', override:'Заменять значки', standard:'Обычные значки', deleted:'Удалённые значки', custom:'Пользовательские значки', order:'Порядок активных значков (перетащите для изменения)', credit:'Made by 清冰みらい' }
+    ja: { appTitle:'Discord All Badges', settings:'設定', language:'言語', staffMode:'スタッフモード', override:'バッジを上書き', standard:'通常バッジ', deleted:'削除済みバッジ', custom:'カスタムバッジ', order:'有効なバッジの表示順（ドラッグして変更）', credit:'Made by 清冰みらい' },
+    en: { appTitle:'Discord All Badges', settings:'Settings', language:'Language', staffMode:'Staff mode', override:'Override badges', standard:'Standard badges', deleted:'Deleted badges', custom:'Custom badges', order:'Enabled badge order (drag to change)', credit:'Made by 清冰みらい' },
+    ko: { settings:'설정', language:'언어', staffMode:'스태프 모드', override:'배지 덮어쓰기', standard:'일반 배지', deleted:'삭제된 배지', custom:'사용자 지정 배지', order:'활성 배지 순서 (드래그하여 변경)', credit:'Made by 清冰みらい' },
+    'zh-CN': { settings:'设置', language:'语言', staffMode:'员工模式', override:'覆盖徽章', standard:'普通徽章', deleted:'已删除徽章', custom:'自定义徽章', order:'已启用徽章顺序（拖动以更改）', credit:'Made by 清冰みらい' },
+    'zh-TW': { settings:'設定', language:'語言', staffMode:'員工模式', override:'覆蓋徽章', standard:'一般徽章', deleted:'已刪除徽章', custom:'自訂徽章', order:'已啟用徽章順序（拖曳以變更）', credit:'Made by 清冰みらい' },
+    fr: { settings:'Paramètres', language:'Langue', staffMode:'Mode staff', override:'Remplacer les badges', standard:'Badges standard', deleted:'Badges supprimés', custom:'Badges personnalisés', order:'Ordre des badges activés (glisser pour modifier)', credit:'Made by 清冰みらい' },
+    de: { settings:'Einstellungen', language:'Sprache', staffMode:'Mitarbeitermodus', override:'Badges überschreiben', standard:'Standard-Badges', deleted:'Entfernte Badges', custom:'Benutzerdefinierte Badges', order:'Reihenfolge aktivierter Badges (zum Ändern ziehen)', credit:'Made by 清冰みらい' },
+    es: { settings:'Configuración', language:'Idioma', staffMode:'Modo de personal', override:'Sobrescribir insignias', standard:'Insignias estándar', deleted:'Insignias eliminadas', custom:'Insignias personalizadas', order:'Orden de insignias activas (arrastra para cambiar)', credit:'Made by 清冰みらい' },
+    pt: { settings:'Configurações', language:'Idioma', staffMode:'Modo de equipe', override:'Substituir emblemas', standard:'Emblemas padrão', deleted:'Emblemas removidos', custom:'Emblemas personalizados', order:'Ordem dos emblemas ativos (arraste para alterar)', credit:'Made by 清冰みらい' },
+    ru: { settings:'Настройки', language:'Язык', staffMode:'Режим персонала', override:'Заменять значки', standard:'Обычные значки', deleted:'Удалённые значки', custom:'Пользовательские значки', order:'Порядок активных значков (перетащите для изменения)', credit:'Made by 清冰みらい' }
 };
 let currentLanguage = 'ja';
 
 function applyLanguage(language) {
     currentLanguage = uiTranslations[language] ? language : 'en';
     const strings = uiTranslations[currentLanguage];
-    document.title = strings.appTitle;
+    document.title = strings.appTitle || 'Discord All Badges';
     document.querySelectorAll('[data-i18n]').forEach(element => { element.textContent = strings[element.dataset.i18n]; });
     const order = document.getElementById('enabledBadgeOrder');
     if (order) { order.title = strings.order; order.setAttribute('aria-label', strings.order); }
@@ -92,12 +92,12 @@ const badgeDetails = [
     { hash: '7d9ae358c8c5e118768335dbe68b4fb8', name: 'Quests', href: 'https://discord.com/discovery/quests' },
     { hash: 'ca105ad9cfc8580c765101d17bbb2323', name: 'Last Meadow Online' },
     { hash: '83d8a1eb09a8d64e59233eec5d4d5c2d', name: 'Orbs Apprentice', href: 'https://discord.com/shop?tab=orbs' },
-    { hash: 'ac305d1b9481f312ce4419e7f8296558', name: 'Gifting Patron', href: 'https://discord.com/settings' },
-    { hash: '8b7792c4f65953d3ff564f23429cb79e', name: 'Gifting Champion', href: 'https://discord.com/settings' },
-    { hash: '3119f5504b2cd09576a323908c7c3517', name: 'Gifting Luminary', href: 'https://discord.com/settings' },
-    { hash: '64f2413c9b9803661322aaad25826b62', name: 'Gifting Icon', href: 'https://discord.com/settings' },
-    { hash: '77d65b1f210014a11eb1582ee06ab684', name: 'Gifting Hero', href: 'https://discord.com/settings' },
-    { hash: '7fe346cfc5da1340087d8759a9e7a395', name: 'Gifting Legend', href: 'https://discord.com/settings' },
+    { hash: 'ac305d1b9481f312ce4419e7f8296558', name: 'Gifting Patron', href: 'https://discord.com/settings/inventory' },
+    { hash: '8b7792c4f65953d3ff564f23429cb79e', name: 'Gifting Champion', href: 'https://discord.com/settings/inventory' },
+    { hash: '3119f5504b2cd09576a323908c7c3517', name: 'Gifting Luminary', href: 'https://discord.com/settings/inventory' },
+    { hash: '64f2413c9b9803661322aaad25826b62', name: 'Gifting Icon', href: 'https://discord.com/settings/inventory' },
+    { hash: '77d65b1f210014a11eb1582ee06ab684', name: 'Gifting Hero', href: 'https://discord.com/settings/inventory' },
+    { hash: '7fe346cfc5da1340087d8759a9e7a395', name: 'Gifting Legend', href: 'https://discord.com/settings/inventory' },
     { hash: 'b5716cca77a6e24b20eabe4d008479a9', name: "Account Age Seed" },
     { hash: 'd7648c523cf6322e650b4f7ea718b8a3', name: "Account Age Sprout" },
     { hash: '73d2776a9c6d93a7e041e6fd90da86f6', name: "Account Age Sapling" },
@@ -307,10 +307,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const enabledBadgeOrder = document.getElementById('enabledBadgeOrder');
     const languageSelect = document.getElementById('languageSelect');
     const overrideToggle = document.getElementById('overrideToggle');
-    chrome.storage.local.get(['enabledHashes', 'badgeOrder', 'activeBadgeOrder', 'language', 'overrideEnabled'], (data) => {
+    const staffModeToggle = document.getElementById('staffModeToggle');
+    chrome.storage.local.get(['enabledHashes', 'badgeOrder', 'activeBadgeOrder', 'language', 'overrideEnabled', 'staffModeEnabled'], (data) => {
         languageSelect.value = uiTranslations[data.language] ? data.language : 'ja';
         applyLanguage(languageSelect.value);
         overrideToggle.checked = data.overrideEnabled !== false;
+        staffModeToggle.checked = data.staffModeEnabled !== false;
+        if (typeof data.staffModeEnabled !== 'boolean') chrome.storage.local.set({ staffModeEnabled: true });
         const enabledHashes = data.enabledHashes ?? badgeDetails
             .filter(badge => defaultBadgeNames.has(badge.name))
             .map(badge => badge.hash);
@@ -393,6 +396,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         overrideToggle.addEventListener('change', () => {
             chrome.storage.local.set({ overrideEnabled: overrideToggle.checked });
+        });
+        staffModeToggle.addEventListener('change', () => {
+            chrome.storage.local.set({ staffModeEnabled: staffModeToggle.checked });
         });
     });
 });
