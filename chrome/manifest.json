@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Discord Badges Customize Tool",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "SeihyouMirai",
   "description": "Discordのバッジをカスタマイズする拡張機能。",
   "permissions": ["storage", "scripting"],
@@ -19,6 +19,27 @@
     "128": "logo/logo.png"
   },
   "content_scripts": [
+    {
+      "matches": [
+        "https://discord.com/*",
+        "https://www.discord.com/*",
+        "https://canary.discord.com/*",
+        "https://ptb.discord.com/*"
+      ],
+      "js": ["staff-mode-bridge.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://discord.com/*",
+        "https://www.discord.com/*",
+        "https://canary.discord.com/*",
+        "https://ptb.discord.com/*"
+      ],
+      "js": ["staff-mode.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    },
     {
       "matches": [
         "https://discord.com/*",
