@@ -7,7 +7,6 @@ chrome.storage.local.get(['enabledHashes', 'badgeOrder', 'activeBadgeOrder', 'ov
         overrideEnabled: data.overrideEnabled !== false
     }, '*');
 });
-
 chrome.storage.onChanged.addListener((changes) => {
     chrome.storage.local.get(['enabledHashes', 'badgeOrder', 'activeBadgeOrder', 'overrideEnabled'], (data) => {
         window.postMessage({
