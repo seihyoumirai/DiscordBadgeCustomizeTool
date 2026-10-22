@@ -1,6 +1,6 @@
-# Discord Profile Badge Customize Tool
+# Discord Profile Customize Tool
 
-An extension for customizing your Discord profile badges.
+An extension for customizing your Discord profile.
 
 You can also enable the staff feature.
 
@@ -8,7 +8,7 @@ You can also enable the staff feature.
 
 ## How to Use
 
-You can toggle the visibility of your badges and rearrange their order via the extension's pop-up menu.
+You can custom of your profile and rearrange their order for the badges via the extension's pop-up menu.
 
 ---
 
